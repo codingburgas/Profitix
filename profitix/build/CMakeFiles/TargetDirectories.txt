@@ -1,0 +1,3 @@
+C:/Users/Kaloyan/source/repos/codingburgas/finance-challenge-profitix/profitix/build/CMakeFiles/profitix.dir
+C:/Users/Kaloyan/source/repos/codingburgas/finance-challenge-profitix/profitix/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kaloyan/source/repos/codingburgas/finance-challenge-profitix/profitix/build/CMakeFiles/ZERO_CHECK.dir
