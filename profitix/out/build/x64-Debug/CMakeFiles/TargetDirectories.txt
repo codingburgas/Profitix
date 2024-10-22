@@ -1,3 +1,0 @@
-C:/Users/Kaloyan/source/repos/codingburgas/finance-challenge-profitix/profitix/out/build/x64-Debug/CMakeFiles/profitix.dir
-C:/Users/Kaloyan/source/repos/codingburgas/finance-challenge-profitix/profitix/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Kaloyan/source/repos/codingburgas/finance-challenge-profitix/profitix/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

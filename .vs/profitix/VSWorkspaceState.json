@@ -1,8 +1,0 @@
-{
-  "OutputFoldersPerTargetSystem": {
-    "WSL: Ubuntu": [
-      "profitix\\out\\Ubuntu\\build\\linux-debug",
-      "profitix\\out\\Ubuntu\\install\\linux-debug"
-    ]
-  }
-}
