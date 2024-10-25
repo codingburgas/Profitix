@@ -13,17 +13,19 @@ endif()
 
 set(SOURCES
 	main.cpp
-	budget.cpp
-	expense.cpp
-	income.cpp
-	report.cpp
-	user.cpp
+	#budget.cpp
+	#expense.cpp
+	#income.cpp
+	#report.cpp
+	#user.cpp
+		precompiler.h
 )
 
 project ("profitix")
 
 # Add source to this project's executable.
-add_executable (profitix ${SOURCES} )
+add_executable (profitix ${SOURCES}
+		precompiler.h)
 
 # Someone please fucking peg me.
 if (CMAKE_VERSION VERSION_GREATER 3.12)

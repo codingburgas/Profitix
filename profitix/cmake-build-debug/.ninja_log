@@ -1,0 +1,7 @@
+# ninja log v6
+2	91	7514158642987554	CMakeFiles/profitix.dir/main.cpp.obj	bbcb24dbcbfefb80
+10	98	7514158643067644	CMakeFiles/profitix.dir/budget.cpp.obj	f5ba6b7a84c3d550
+15	99	7514158643112816	CMakeFiles/profitix.dir/expense.cpp.obj	ced95de0d9cdffd
+22	103	7514158643188081	CMakeFiles/profitix.dir/income.cpp.obj	350c73f4bd0dfc41
+30	109	7514158643263247	CMakeFiles/profitix.dir/report.cpp.obj	7653f5752ffcaae1
+38	112	7514158643348565	CMakeFiles/profitix.dir/user.cpp.obj	8220426d7ec7fae3
