@@ -129,29 +129,29 @@ profitix/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/build
 .PHONY : profitix/fast
 
-budget.o: budget.cpp.o
-.PHONY : budget.o
+clearScreen.o: clearScreen.cpp.o
+.PHONY : clearScreen.o
 
 # target to build an object file
-budget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/budget.cpp.o
-.PHONY : budget.cpp.o
+clearScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/clearScreen.cpp.o
+.PHONY : clearScreen.cpp.o
 
-budget.i: budget.cpp.i
-.PHONY : budget.i
+clearScreen.i: clearScreen.cpp.i
+.PHONY : clearScreen.i
 
 # target to preprocess a source file
-budget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/budget.cpp.i
-.PHONY : budget.cpp.i
+clearScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/clearScreen.cpp.i
+.PHONY : clearScreen.cpp.i
 
-budget.s: budget.cpp.s
-.PHONY : budget.s
+clearScreen.s: clearScreen.cpp.s
+.PHONY : clearScreen.s
 
 # target to generate assembly for a file
-budget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/budget.cpp.s
-.PHONY : budget.cpp.s
+clearScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/clearScreen.cpp.s
+.PHONY : clearScreen.cpp.s
 
 expense.o: expense.cpp.o
 .PHONY : expense.o
@@ -282,9 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... profitix"
-	@echo "... budget.o"
-	@echo "... budget.i"
-	@echo "... budget.s"
+	@echo "... clearScreen.o"
+	@echo "... clearScreen.i"
+	@echo "... clearScreen.s"
 	@echo "... expense.o"
 	@echo "... expense.i"
 	@echo "... expense.s"

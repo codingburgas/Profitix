@@ -83,24 +83,10 @@ CMakeFiles/profitix.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/main.cpp -o CMakeFiles/profitix.dir/main.cpp.s
 
-CMakeFiles/profitix.dir/budget.cpp.o: CMakeFiles/profitix.dir/flags.make
-CMakeFiles/profitix.dir/budget.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.cpp
-CMakeFiles/profitix.dir/budget.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/profitix.dir/budget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/budget.cpp.o -MF CMakeFiles/profitix.dir/budget.cpp.o.d -o CMakeFiles/profitix.dir/budget.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.cpp
-
-CMakeFiles/profitix.dir/budget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profitix.dir/budget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.cpp > CMakeFiles/profitix.dir/budget.cpp.i
-
-CMakeFiles/profitix.dir/budget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/budget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.cpp -o CMakeFiles/profitix.dir/budget.cpp.s
-
 CMakeFiles/profitix.dir/expense.cpp.o: CMakeFiles/profitix.dir/flags.make
 CMakeFiles/profitix.dir/expense.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.cpp
 CMakeFiles/profitix.dir/expense.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/profitix.dir/expense.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/profitix.dir/expense.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/expense.cpp.o -MF CMakeFiles/profitix.dir/expense.cpp.o.d -o CMakeFiles/profitix.dir/expense.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.cpp
 
 CMakeFiles/profitix.dir/expense.cpp.i: cmake_force
@@ -111,24 +97,10 @@ CMakeFiles/profitix.dir/expense.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/expense.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.cpp -o CMakeFiles/profitix.dir/expense.cpp.s
 
-CMakeFiles/profitix.dir/income.cpp.o: CMakeFiles/profitix.dir/flags.make
-CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp
-CMakeFiles/profitix.dir/income.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/profitix.dir/income.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/income.cpp.o -MF CMakeFiles/profitix.dir/income.cpp.o.d -o CMakeFiles/profitix.dir/income.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp
-
-CMakeFiles/profitix.dir/income.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profitix.dir/income.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp > CMakeFiles/profitix.dir/income.cpp.i
-
-CMakeFiles/profitix.dir/income.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/income.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp -o CMakeFiles/profitix.dir/income.cpp.s
-
 CMakeFiles/profitix.dir/report.cpp.o: CMakeFiles/profitix.dir/flags.make
 CMakeFiles/profitix.dir/report.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/report.cpp
 CMakeFiles/profitix.dir/report.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/profitix.dir/report.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/profitix.dir/report.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/report.cpp.o -MF CMakeFiles/profitix.dir/report.cpp.o.d -o CMakeFiles/profitix.dir/report.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/report.cpp
 
 CMakeFiles/profitix.dir/report.cpp.i: cmake_force
@@ -142,7 +114,7 @@ CMakeFiles/profitix.dir/report.cpp.s: cmake_force
 CMakeFiles/profitix.dir/user.cpp.o: CMakeFiles/profitix.dir/flags.make
 CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/user.cpp
 CMakeFiles/profitix.dir/user.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/profitix.dir/user.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/profitix.dir/user.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/user.cpp.o -MF CMakeFiles/profitix.dir/user.cpp.o.d -o CMakeFiles/profitix.dir/user.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/user.cpp
 
 CMakeFiles/profitix.dir/user.cpp.i: cmake_force
@@ -153,24 +125,52 @@ CMakeFiles/profitix.dir/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/user.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/user.cpp -o CMakeFiles/profitix.dir/user.cpp.s
 
+CMakeFiles/profitix.dir/income.cpp.o: CMakeFiles/profitix.dir/flags.make
+CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp
+CMakeFiles/profitix.dir/income.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/profitix.dir/income.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/income.cpp.o -MF CMakeFiles/profitix.dir/income.cpp.o.d -o CMakeFiles/profitix.dir/income.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp
+
+CMakeFiles/profitix.dir/income.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profitix.dir/income.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp > CMakeFiles/profitix.dir/income.cpp.i
+
+CMakeFiles/profitix.dir/income.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/income.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp -o CMakeFiles/profitix.dir/income.cpp.s
+
+CMakeFiles/profitix.dir/clearScreen.cpp.o: CMakeFiles/profitix.dir/flags.make
+CMakeFiles/profitix.dir/clearScreen.cpp.o: /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.cpp
+CMakeFiles/profitix.dir/clearScreen.cpp.o: CMakeFiles/profitix.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/profitix.dir/clearScreen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profitix.dir/clearScreen.cpp.o -MF CMakeFiles/profitix.dir/clearScreen.cpp.o.d -o CMakeFiles/profitix.dir/clearScreen.cpp.o -c /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.cpp
+
+CMakeFiles/profitix.dir/clearScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profitix.dir/clearScreen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.cpp > CMakeFiles/profitix.dir/clearScreen.cpp.i
+
+CMakeFiles/profitix.dir/clearScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profitix.dir/clearScreen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.cpp -o CMakeFiles/profitix.dir/clearScreen.cpp.s
+
 # Object files for target profitix
 profitix_OBJECTS = \
 "CMakeFiles/profitix.dir/main.cpp.o" \
-"CMakeFiles/profitix.dir/budget.cpp.o" \
 "CMakeFiles/profitix.dir/expense.cpp.o" \
-"CMakeFiles/profitix.dir/income.cpp.o" \
 "CMakeFiles/profitix.dir/report.cpp.o" \
-"CMakeFiles/profitix.dir/user.cpp.o"
+"CMakeFiles/profitix.dir/user.cpp.o" \
+"CMakeFiles/profitix.dir/income.cpp.o" \
+"CMakeFiles/profitix.dir/clearScreen.cpp.o"
 
 # External object files for target profitix
 profitix_EXTERNAL_OBJECTS =
 
 profitix: CMakeFiles/profitix.dir/main.cpp.o
-profitix: CMakeFiles/profitix.dir/budget.cpp.o
 profitix: CMakeFiles/profitix.dir/expense.cpp.o
-profitix: CMakeFiles/profitix.dir/income.cpp.o
 profitix: CMakeFiles/profitix.dir/report.cpp.o
 profitix: CMakeFiles/profitix.dir/user.cpp.o
+profitix: CMakeFiles/profitix.dir/income.cpp.o
+profitix: CMakeFiles/profitix.dir/clearScreen.cpp.o
 profitix: CMakeFiles/profitix.dir/build.make
 profitix: CMakeFiles/profitix.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable profitix"

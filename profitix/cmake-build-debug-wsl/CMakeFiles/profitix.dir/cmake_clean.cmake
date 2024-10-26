@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/profitix.dir/budget.cpp.o"
-  "CMakeFiles/profitix.dir/budget.cpp.o.d"
+  "CMakeFiles/profitix.dir/clearScreen.cpp.o"
+  "CMakeFiles/profitix.dir/clearScreen.cpp.o.d"
   "CMakeFiles/profitix.dir/expense.cpp.o"
   "CMakeFiles/profitix.dir/expense.cpp.o.d"
   "CMakeFiles/profitix.dir/income.cpp.o"

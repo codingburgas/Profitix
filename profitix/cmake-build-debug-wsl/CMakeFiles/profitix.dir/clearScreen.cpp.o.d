@@ -1,5 +1,5 @@
-CMakeFiles/profitix.dir/main.cpp.o: \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/main.cpp \
+CMakeFiles/profitix.dir/clearScreen.cpp.o: \
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/precompiler.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \

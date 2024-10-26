@@ -2,12 +2,12 @@
 
 void registerUser();
 void loginUser();
-void addIncome();
-void viewIncome();
-void addExpense();
-void viewExpense();
-void generateReport();
-void budgetPlanning();
+//void addIncome();
+//void viewIncome();
+//void addExpense();
+//void viewExpense();
+//void generateReport();
+//void budgetPlanning();
 
 int main() {
     int choice;
@@ -26,6 +26,7 @@ int main() {
             registerUser();
         }
         else if (choice == 2) {
+            clearScreen();
             loginUser();
             loggedIn = true;  // Assuming login is successful, for simplicity
         }
@@ -46,28 +47,37 @@ int main() {
 
         switch (choice) {
             case 1:
-                addIncome();
+                clearScreen();
+                //addIncome();
             break;
             case 2:
-                viewIncome();
+                clearScreen();
+                //viewIncome();
             break;
             case 3:
-                addExpense();
+                clearScreen();
+                //addExpense();
             break;
             case 4:
-                viewExpense();
+                clearScreen();
+                //viewExpense();
             break;
             case 5:
-                generateReport();
+                clearScreen();
+                //generateReport();
             break;
             case 6:
-                budgetPlanning();
+                clearScreen();
+                //budgetPlanning();
             break;
+
             case 7:
+                clearScreen();
                 // Cancel returns to the main menu
                     continue; // Goes back to the main menu
             case 8:
-                return 0;  // Exit the program
+                clearScreen();
+                return 0;
             default:
                 system("dialog --msgbox \"Invalid Option\" 6 30");
             break;

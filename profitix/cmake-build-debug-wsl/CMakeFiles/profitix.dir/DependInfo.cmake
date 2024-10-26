@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.cpp" "CMakeFiles/profitix.dir/budget.cpp.o" "gcc" "CMakeFiles/profitix.dir/budget.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.cpp" "CMakeFiles/profitix.dir/clearScreen.cpp.o" "gcc" "CMakeFiles/profitix.dir/clearScreen.cpp.o.d"
   "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.cpp" "CMakeFiles/profitix.dir/expense.cpp.o" "gcc" "CMakeFiles/profitix.dir/expense.cpp.o.d"
   "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.cpp" "CMakeFiles/profitix.dir/income.cpp.o" "gcc" "CMakeFiles/profitix.dir/income.cpp.o.d"
   "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/main.cpp" "CMakeFiles/profitix.dir/main.cpp.o" "gcc" "CMakeFiles/profitix.dir/main.cpp.o.d"
