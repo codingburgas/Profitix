@@ -15,6 +15,7 @@ int main() {
 
     // Main Menu for Register/Login
     while (!loggedIn) {
+        clearScreen();
         system("dialog --menu \"Welcome to Personal Finance Manager\" 15 50 3 1 \"Register\" 2 \"Login\" 3 \"Exit\" 2> menu_choice.txt");
 
         std::ifstream file("menu_choice.txt");

@@ -56,8 +56,8 @@ void loginUser() {
         system("dialog --msgbox \"Login Successful!\" 6 30");
     }
     else {
-
         system("dialog --msgbox \"Invalid Credentials!\" 6 30");
+        loginUser();
     }
 
     system("rm username.txt password.txt");
