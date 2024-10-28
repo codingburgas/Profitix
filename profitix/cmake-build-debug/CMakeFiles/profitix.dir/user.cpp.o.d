@@ -163,4 +163,5 @@ CMakeFiles/profitix.dir/user.cpp.o: \
  /home/kaloyan/finance-challenge-profitix/profitix/clearScreen.h \
  /home/kaloyan/finance-challenge-profitix/profitix/mainMenu.h \
  /home/kaloyan/finance-challenge-profitix/profitix/globals.h \
- /home/kaloyan/finance-challenge-profitix/profitix/dashboard.h
+ /home/kaloyan/finance-challenge-profitix/profitix/dashboard.h \
+ /home/kaloyan/finance-challenge-profitix/profitix/income.h

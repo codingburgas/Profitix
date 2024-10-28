@@ -6,7 +6,7 @@
 void dashboard() {
     while (loggedIn) {
         // Create a menu with an exit option at the bottom and a cancel option
-        system("dialog --backtitle \"Profitix Finance Manager — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --no-cancel --menu \"Profitix Finance Manager\" 15 50 8 1 \"Add Income\" 2 \"View Income\" 3 \"Add Expense\" 4 \"View Expense\" 5 \"Generate Report\" 6 \"Budget Planning\" 7 \"Log Out\" 2> action_choice.txt");
+        system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --no-cancel --menu \"Profitix Finance Manager\" 15 50 8 1 \"Add Income\" 2 \"View Income\" 3 \"Add Expense\" 4 \"View Expense\" 5 \"Generate Report\" 6 \"Budget Planning\" 7 \"Log Out\" 2> action_choice.txt");
 
         std::ifstream file("action_choice.txt");
         int choice;
@@ -17,11 +17,11 @@ void dashboard() {
         switch (choice) {
             case 1:
                 clearScreen();
-            // addIncome();
+               addIncome();
             break;
             case 2:
                 clearScreen();
-            // viewIncome();
+               viewIncome();
             break;
             case 3:
                 clearScreen();
