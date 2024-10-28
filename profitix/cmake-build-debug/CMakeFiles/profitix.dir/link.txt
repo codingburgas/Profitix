@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\profitix.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\profitix.dir/objects.a @CMakeFiles\profitix.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\profitix.dir/objects.a -Wl,--no-whole-archive -o profitix.exe -Wl,--out-implib,libprofitix.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\profitix.dir\linkLibs.rsp
+/usr/bin/c++ -g CMakeFiles/profitix.dir/main.cpp.o CMakeFiles/profitix.dir/expense.cpp.o CMakeFiles/profitix.dir/report.cpp.o CMakeFiles/profitix.dir/user.cpp.o CMakeFiles/profitix.dir/income.cpp.o CMakeFiles/profitix.dir/clearScreen.cpp.o CMakeFiles/profitix.dir/mainMenu.cpp.o CMakeFiles/profitix.dir/dashboard.cpp.o CMakeFiles/profitix.dir/budget.cpp.o -o profitix
