@@ -81,12 +81,12 @@ clean: CMakeFiles/profitix.dir/clean
 CMakeFiles/profitix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target profitix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target profitix"
 .PHONY : CMakeFiles/profitix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/profitix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/profitix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles 0
 .PHONY : CMakeFiles/profitix.dir/rule

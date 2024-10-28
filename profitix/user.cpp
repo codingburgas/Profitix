@@ -26,12 +26,20 @@ void registerUser() {
     getline(file, password);
     file.close();
 
-    // Save user data
-    std::ofstream users("users.txt", std::ios::app);
-    users << username << " " << password << "\n";
-    users.close();
+    if(username.size() > 16 || password.size() < 8 || username.size() < 4 || username.size() > 25) {
+        system("dialog --msgbox \"Invalid Credentials!\" 6 30");
+        registerUser();
+    }
 
-    system("dialog --backtitle \"Profitix Finance Manager — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Registration Successful!\" 6 30");
+    else {
+        std::ofstream users("users.txt", std::ios::app);
+        users << username << " " << password << "\n";
+        users.close();
+        system("dialog --msgbox \"Register Successful!\" 6 30");
+        file.close();
+    }
+
+    system("dialog --backtitle \"Profitix Finance Manager — GitHub: https://github.com/codingburgas/finance-challenge-profitix\"");
     system("rm username.txt password.txt");
 }
 

@@ -160,4 +160,8 @@ CMakeFiles/profitix.dir/user.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.h
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.h \
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/mainMenu.h \
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/globals.h \
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/dashboard.h \
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.h

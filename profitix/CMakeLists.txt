@@ -25,12 +25,14 @@ set(SOURCES
         globals.h
         dashboard.cpp
         dashboard.h
+        budget.cpp
 )
 
 project ("profitix")
 
 # Add source to this project's executable.
-add_executable (profitix ${SOURCES})
+add_executable (profitix ${SOURCES}
+        budget.cpp)
 
 # Someone please fucking peg me.
 if (CMAKE_VERSION VERSION_GREATER 3.12)

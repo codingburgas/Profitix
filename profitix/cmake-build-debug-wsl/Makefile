@@ -129,6 +129,30 @@ profitix/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/build
 .PHONY : profitix/fast
 
+budget.o: budget.cpp.o
+.PHONY : budget.o
+
+# target to build an object file
+budget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/budget.cpp.o
+.PHONY : budget.cpp.o
+
+budget.i: budget.cpp.i
+.PHONY : budget.i
+
+# target to preprocess a source file
+budget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/budget.cpp.i
+.PHONY : budget.cpp.i
+
+budget.s: budget.cpp.s
+.PHONY : budget.s
+
+# target to generate assembly for a file
+budget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/budget.cpp.s
+.PHONY : budget.cpp.s
+
 clearScreen.o: clearScreen.cpp.o
 .PHONY : clearScreen.o
 
@@ -152,6 +176,30 @@ clearScreen.s: clearScreen.cpp.s
 clearScreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/clearScreen.cpp.s
 .PHONY : clearScreen.cpp.s
+
+dashboard.o: dashboard.cpp.o
+.PHONY : dashboard.o
+
+# target to build an object file
+dashboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/dashboard.cpp.o
+.PHONY : dashboard.cpp.o
+
+dashboard.i: dashboard.cpp.i
+.PHONY : dashboard.i
+
+# target to preprocess a source file
+dashboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/dashboard.cpp.i
+.PHONY : dashboard.cpp.i
+
+dashboard.s: dashboard.cpp.s
+.PHONY : dashboard.s
+
+# target to generate assembly for a file
+dashboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/dashboard.cpp.s
+.PHONY : dashboard.cpp.s
 
 expense.o: expense.cpp.o
 .PHONY : expense.o
@@ -225,6 +273,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainMenu.o: mainMenu.cpp.o
+.PHONY : mainMenu.o
+
+# target to build an object file
+mainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/mainMenu.cpp.o
+.PHONY : mainMenu.cpp.o
+
+mainMenu.i: mainMenu.cpp.i
+.PHONY : mainMenu.i
+
+# target to preprocess a source file
+mainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/mainMenu.cpp.i
+.PHONY : mainMenu.cpp.i
+
+mainMenu.s: mainMenu.cpp.s
+.PHONY : mainMenu.s
+
+# target to generate assembly for a file
+mainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/mainMenu.cpp.s
+.PHONY : mainMenu.cpp.s
+
 report.o: report.cpp.o
 .PHONY : report.o
 
@@ -282,9 +354,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... profitix"
+	@echo "... budget.o"
+	@echo "... budget.i"
+	@echo "... budget.s"
 	@echo "... clearScreen.o"
 	@echo "... clearScreen.i"
 	@echo "... clearScreen.s"
+	@echo "... dashboard.o"
+	@echo "... dashboard.i"
+	@echo "... dashboard.s"
 	@echo "... expense.o"
 	@echo "... expense.i"
 	@echo "... expense.s"
@@ -294,6 +372,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainMenu.o"
+	@echo "... mainMenu.i"
+	@echo "... mainMenu.s"
 	@echo "... report.o"
 	@echo "... report.i"
 	@echo "... report.s"
