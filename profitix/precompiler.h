@@ -9,6 +9,9 @@
 #include <cstdlib>
 #include <string>
 #include "clearScreen.h"
+#include "mainMenu.h"
+#include "globals.h"
+#include "dashboard.h"
 
 
 

@@ -20,18 +20,17 @@ set(SOURCES
         income.cpp
         clearScreen.h
         clearScreen.cpp
+        mainMenu.cpp
+        mainMenu.h
+        globals.h
+        dashboard.cpp
+        dashboard.h
 )
 
 project ("profitix")
 
 # Add source to this project's executable.
-add_executable (profitix ${SOURCES}
-		precompiler.h
-        expense.cpp
-        report.cpp
-        user.cpp
-        income.cpp
-        clearScreen.cpp)
+add_executable (profitix ${SOURCES})
 
 # Someone please fucking peg me.
 if (CMAKE_VERSION VERSION_GREATER 3.12)

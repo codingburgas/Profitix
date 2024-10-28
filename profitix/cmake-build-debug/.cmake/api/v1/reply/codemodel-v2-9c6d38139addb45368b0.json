@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "profitix::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-profitix-Debug-7cdf6c1b312a322311f8.json",
+					"jsonFile" : "target-profitix-Debug-d7549b7ed1f7c98e7a99.json",
 					"name" : "profitix",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug",
-		"source" : "C:/Users/yuant/CLionProjects/finance-challenge-profitix/profitix"
+		"build" : "/home/kaloyan/finance-challenge-profitix/profitix/cmake-build-debug",
+		"source" : "/home/kaloyan/finance-challenge-profitix/profitix"
 	},
 	"version" : 
 	{
