@@ -2,15 +2,17 @@
 
 void addIncome() {
     std::string date, category, amount;
+    int day, month, year;
 
-    // Prompt for Date
-    if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Date (YYYY-MM-DD):\" 10 40 2> date.txt") != 0) {
+    // Prompt for Date with Calendar
+    if (system("dialog --no-cancel --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
         dashboard();
         return;
     }
     std::ifstream file("date.txt");
-    getline(file, date);
+    file >> month >> day >> year;
     file.close();
+    date = std::to_string(year) + "-" + (month < 10 ? "0" : "") + std::to_string(month) + "-" + (day < 10 ? "0" : "") + std::to_string(day);
 
     // Prompt for Category
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Category:\" 10 40 2> category.txt") != 0) {
