@@ -13,7 +13,7 @@
 #include "globals.h"
 #include "dashboard.h"
 #include "income.h"
-
-
+#include "budget.h"
+#include "expense.h"
 
 #endif //PRECOMPILER_H

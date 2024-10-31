@@ -25,11 +25,11 @@ void dashboard() {
             break;
             case 3:
                 clearScreen();
-            // addExpense();
+                addExpense();
             break;
             case 4:
                 clearScreen();
-            // viewExpense();
+                viewExpense();
             break;
             case 5:
                 clearScreen();
