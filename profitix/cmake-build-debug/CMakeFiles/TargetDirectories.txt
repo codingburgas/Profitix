@@ -1,3 +1,3 @@
-/home/kaloyan/finance-challenge-profitix/profitix/cmake-build-debug/CMakeFiles/profitix.dir
-/home/kaloyan/finance-challenge-profitix/profitix/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kaloyan/finance-challenge-profitix/profitix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kaloyan/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug/CMakeFiles/profitix.dir
+/home/kaloyan/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kaloyan/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

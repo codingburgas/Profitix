@@ -1,7 +1,13 @@
 # ninja log v6
-2	91	7514158642987554	CMakeFiles/profitix.dir/main.cpp.obj	bbcb24dbcbfefb80
-10	98	7514158643067644	CMakeFiles/profitix.dir/budget.cpp.obj	f5ba6b7a84c3d550
-15	99	7514158643112816	CMakeFiles/profitix.dir/expense.cpp.obj	ced95de0d9cdffd
-22	103	7514158643188081	CMakeFiles/profitix.dir/income.cpp.obj	350c73f4bd0dfc41
-30	109	7514158643263247	CMakeFiles/profitix.dir/report.cpp.obj	7653f5752ffcaae1
-38	112	7514158643348565	CMakeFiles/profitix.dir/user.cpp.obj	8220426d7ec7fae3
+1	22	1730413983430052222	CMakeFiles/profitix.dir/report.cpp.o	fe5b282ce4e157a3
+3	25	1730413983433385591	CMakeFiles/profitix.dir/budget.cpp.o	aa62564ad5a1b844
+2	728	1730413983433385591	CMakeFiles/profitix.dir/clearScreen.cpp.o	3fc1cf3da095ad4f
+1	788	1730413983430052222	CMakeFiles/profitix.dir/main.cpp.o	d67b70d7817387b6
+2	837	1730413983433385591	CMakeFiles/profitix.dir/mainMenu.cpp.o	738d45a21385039a
+2	879	1730413983433385591	CMakeFiles/profitix.dir/dashboard.cpp.o	158f8bd1d1c9b4b4
+1	896	1730413983433385591	CMakeFiles/profitix.dir/user.cpp.o	f6cdf91194dd06b6
+2	920	1730413983433385591	CMakeFiles/profitix.dir/income.cpp.o	9ace7ac9350f05a1
+1	1035	1730413983430052222	CMakeFiles/profitix.dir/expense.cpp.o	7f8addb61b1ac0a2
+1035	1155	1730413984466730011	profitix	69a087e6803ae948
+1	366	1730414962241936147	CMakeFiles/profitix.dir/income.cpp.o	9ace7ac9350f05a1
+367	433	1730414962608606578	profitix	69a087e6803ae948

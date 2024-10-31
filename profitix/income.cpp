@@ -2,17 +2,19 @@
 
 void addIncome() {
     std::string date, category, amount;
-    int day, month, year;
 
     // Prompt for Date with Calendar
     if (system("dialog --no-cancel --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
         dashboard();
         return;
     }
+
+    // Read and format the date
     std::ifstream file("date.txt");
-    file >> month >> day >> year;
+    std::string date_str;
+    file >> date_str;  // Reads date in "MM-DD-YYYY" format
     file.close();
-    date = std::to_string(year) + "-" + (month < 10 ? "0" : "") + std::to_string(month) + "-" + (day < 10 ? "0" : "") + std::to_string(day);
+    date = date_str.substr(6, 4) + "-" + date_str.substr(0, 2) + "-" + date_str.substr(3, 2);
 
     // Prompt for Category
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Category:\" 10 40 2> category.txt") != 0) {
@@ -20,7 +22,7 @@ void addIncome() {
         return;
     }
     file.open("category.txt");
-    getline(file, category);
+    std::getline(file, category);
     file.close();
 
     // Prompt for Amount
@@ -29,7 +31,7 @@ void addIncome() {
         return;
     }
     file.open("amount.txt");
-    getline(file, amount);
+    std::getline(file, amount);
     file.close();
 
     // Add income to file
