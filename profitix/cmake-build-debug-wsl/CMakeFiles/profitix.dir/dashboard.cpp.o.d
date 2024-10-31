@@ -1,5 +1,5 @@
 CMakeFiles/profitix.dir/dashboard.cpp.o: \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/dashboard.cpp \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -159,9 +159,9 @@ CMakeFiles/profitix.dir/dashboard.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/precompiler.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/mainMenu.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/globals.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/dashboard.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.h
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/precompiler.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/clearScreen.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/mainMenu.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/globals.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/income.h

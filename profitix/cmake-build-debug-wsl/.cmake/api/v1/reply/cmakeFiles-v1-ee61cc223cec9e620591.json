@@ -768,8 +768,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/cmake-build-debug-wsl",
-		"source" : "/mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix"
+		"build" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/cmake-build-debug-wsl",
+		"source" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix"
 	},
 	"version" : 
 	{
