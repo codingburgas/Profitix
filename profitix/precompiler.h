@@ -15,5 +15,7 @@
 #include "income.h"
 #include "budget.h"
 #include "expense.h"
+#include "report.h"
+
 
 #endif //PRECOMPILER_H

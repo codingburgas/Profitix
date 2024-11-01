@@ -1,5 +1,3 @@
-#include "precompiler.h"
-
 #ifndef CLEARSCREEN_H
 #define CLEARSCREEN_H
 

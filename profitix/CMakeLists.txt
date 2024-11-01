@@ -28,6 +28,8 @@ set(SOURCES
         budget.cpp
         budget.h
         expense.h
+        report.h
+
 )
 
 project ("profitix")
@@ -36,7 +38,8 @@ project ("profitix")
 add_executable (profitix ${SOURCES}
         budget.cpp
         budget.h
-        expense.h)
+        expense.h
+        report.h)
 
 # Someone please fucking peg me.
 if (CMAKE_VERSION VERSION_GREATER 3.12)

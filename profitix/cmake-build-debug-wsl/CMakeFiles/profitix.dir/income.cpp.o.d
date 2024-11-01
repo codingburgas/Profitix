@@ -166,4 +166,5 @@ CMakeFiles/profitix.dir/income.cpp.o: \
  /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/dashboard.h \
  /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.h \
  /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.h
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.h \
+ /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/report.h

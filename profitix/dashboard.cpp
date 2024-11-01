@@ -1,6 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
+
 #include "precompiler.h"
 
 void dashboard() {
@@ -33,7 +31,7 @@ void dashboard() {
             break;
             case 5:
                 clearScreen();
-            // generateReport();
+               generateReport();
             break;
             case 6:
                 clearScreen();
