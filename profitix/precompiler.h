@@ -16,6 +16,7 @@
 #include "budget.h"
 #include "expense.h"
 #include "report.h"
+#include <ctime>
 
 
 #endif //PRECOMPILER_H

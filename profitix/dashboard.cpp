@@ -1,5 +1,6 @@
 #include "precompiler.h"
 
+
 void dashboard() {
     while (loggedIn) {
         // Create a menu with an exit option at the bottom and a cancel option
@@ -18,7 +19,7 @@ void dashboard() {
             break;
             case 2:
                 clearScreen();
-               viewIncome();
+            viewIncome(currentUserID);
             break;
             case 3:
                 clearScreen();

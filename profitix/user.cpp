@@ -1,8 +1,12 @@
 #include "precompiler.h"
 
+std::string currentUserID;
 // Function to register a new user
 void registerUser() {
     std::string username, password;
+
+    // Seed the random number generator
+    std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
     // Get username from user
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Username:\" 10 40 2> username.txt") != 0) {
@@ -26,12 +30,16 @@ void registerUser() {
     std::getline(file, password);
     file.close();
 
+    // Validate username and password
     if (username.size() < 4 || username.size() > 25 || password.size() < 8) {
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Invalid Credentials!\" 6 30");
         registerUser();
     } else {
+        // Generate a random 4-digit ID
+        int userId = 1000 + std::rand() % 9000;
+
         std::ofstream users("users.txt", std::ios::app);
-        users << "\"" << username << "\" \"" << password << "\"\n";
+        users << "\"" << username << "\" \"" << password << "\" " << userId << "\n";
         users.close();
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Register Successful!\" 6 30");
     }
@@ -45,9 +53,9 @@ void loginUser() {
     bool loginSuccess = false;
 
     // Get username from user
-    if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Username:\" 10 40 2> username.txt") != 0) {
+    if (system("dialog --backtitle \"Profitix Finance Manager...\" --inputbox \"Enter Username:\" 10 40 2> username.txt") != 0) {
         system("rm username.txt");
-        mainMenu();  // Call main menu on cancel
+        mainMenu();
         return;
     }
 
@@ -56,9 +64,9 @@ void loginUser() {
     file.close();
 
     // Get password from user
-    if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --passwordbox \"Enter Password:\" 10 40 2> password.txt") != 0) {
+    if (system("dialog --backtitle \"Profitix Finance Manager...\" --passwordbox \"Enter Password:\" 10 40 2> password.txt") != 0) {
         system("rm username.txt password.txt");
-        mainMenu();  // Call main menu on cancel
+        mainMenu();
         return;
     }
 
@@ -81,6 +89,7 @@ void loginUser() {
 
             if (storedUser == username && storedPass == password) {
                 loginSuccess = true;
+                currentUserID = line.substr(line.size() - 4, line.size());
                 loggedIn = true;
                 break;
             }
@@ -89,11 +98,11 @@ void loginUser() {
     users.close();
 
     if (loginSuccess) {
-        system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Login Successful!\" 6 30");
+        system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Login Successful!\" 6 30");
         dashboard();
     } else {
-        system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Invalid Credentials!\" 6 30");
-        loginUser();  // Restart login process
+        system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Invalid Credentials!\" 6 30");
+        loginUser();
     }
 
     system("rm username.txt password.txt");

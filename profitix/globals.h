@@ -3,5 +3,6 @@
 
 extern bool loggedIn;
 extern int choice;
+extern std::string currentUserID;
 
 #endif //GLOBALS_H

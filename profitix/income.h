@@ -2,6 +2,6 @@
 #define INCOME_H
 
 void addIncome();
-void viewIncome();
+void viewIncome(const std::string& currentUserID);
 
 #endif //INCOME_H
