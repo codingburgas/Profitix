@@ -1,4 +1,3 @@
-
 #include "precompiler.h"
 
 void dashboard() {
@@ -35,11 +34,11 @@ void dashboard() {
             break;
             case 6:
                 clearScreen();
-            // budgetPlanning();
+                budgetPlanning();
             break;
             case 7:
                 clearScreen();
-            mainMenu();
+                 mainMenu();
             break;
             default:
                 system("dialog --msgbox \"Invalid Option\" 6 30");

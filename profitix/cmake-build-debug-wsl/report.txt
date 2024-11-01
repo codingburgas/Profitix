@@ -1,7 +1,1 @@
------ Financial Report -----
-Income:
-2025-14-05 sigma sigma
 
-Expenses:
-0-16-00 sigma sigma
-2030-20-08 sigma sigma
