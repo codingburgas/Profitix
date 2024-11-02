@@ -33,17 +33,6 @@ void addExpense() {
         return;
     }
 
-    // Prompt for Amount
-    if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Amount:\" 10 40 2> amount.txt") != 0) {
-        dashboard();
-        return;
-    }
-    file.open("amount.txt");
-    std::getline(file, amount);
-    file.close();
-
-    double expenseAmount = std::stod(amount);
-
     // Calculate total expense for the selected category
     std::ifstream expenseFile("expense.txt");
     std::string line, fileDate, fileCategory, fileAmount, fileUserID;
@@ -56,6 +45,32 @@ void addExpense() {
         }
     }
     expenseFile.close();
+
+    // Calculate remaining budget
+    double remainingBudget = budgetLimit - totalAmountForCategory;
+
+    // Format remaining budget to remove trailing zeros
+    std::ostringstream formattedBudget;
+    formattedBudget << std::fixed << std::setprecision(2) << remainingBudget;
+    std::string budgetStr = formattedBudget.str();
+    budgetStr.erase(budgetStr.find_last_not_of('0') + 1, std::string::npos);  // Remove trailing zeros
+    if (budgetStr.back() == '.') {
+        budgetStr.pop_back();  // Remove trailing dot if present
+    }
+
+    // Display remaining budget below "Enter Amount"
+    std::string promptMessage = "Enter Amount:\n\n(Budget Remaining: " + budgetStr + ")";
+    std::string dialogCommand = "dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"" + promptMessage + "\" 10 40 2> amount.txt";
+
+    if (system(dialogCommand.c_str()) != 0) {
+        dashboard();
+        return;
+    }
+    file.open("amount.txt");
+    std::getline(file, amount);
+    file.close();
+
+    double expenseAmount = std::stod(amount);
 
     // Check if adding this expense would exceed the budget limit
     if (totalAmountForCategory + expenseAmount > budgetLimit) {

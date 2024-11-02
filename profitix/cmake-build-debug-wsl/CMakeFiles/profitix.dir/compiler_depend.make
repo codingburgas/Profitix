@@ -43,8 +43,11 @@ CMakeFiles/profitix.dir/budget.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -58,6 +61,7 @@ CMakeFiles/profitix.dir/budget.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -105,10 +109,12 @@ CMakeFiles/profitix.dir/budget.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -128,6 +134,7 @@ CMakeFiles/profitix.dir/budget.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -210,7 +217,9 @@ CMakeFiles/profitix.dir/budget.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -262,8 +271,11 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o: /mnt/c/Users/User/Documents/finance-c
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -277,6 +289,7 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o: /mnt/c/Users/User/Documents/finance-c
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -324,10 +337,12 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o: /mnt/c/Users/User/Documents/finance-c
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -347,6 +362,7 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o: /mnt/c/Users/User/Documents/finance-c
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -429,7 +445,9 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o: /mnt/c/Users/User/Documents/finance-c
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -481,8 +499,11 @@ CMakeFiles/profitix.dir/dashboard.cpp.o: /mnt/c/Users/User/Documents/finance-cha
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -496,6 +517,7 @@ CMakeFiles/profitix.dir/dashboard.cpp.o: /mnt/c/Users/User/Documents/finance-cha
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -543,10 +565,12 @@ CMakeFiles/profitix.dir/dashboard.cpp.o: /mnt/c/Users/User/Documents/finance-cha
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -566,6 +590,7 @@ CMakeFiles/profitix.dir/dashboard.cpp.o: /mnt/c/Users/User/Documents/finance-cha
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -648,7 +673,9 @@ CMakeFiles/profitix.dir/dashboard.cpp.o: /mnt/c/Users/User/Documents/finance-cha
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -700,8 +727,11 @@ CMakeFiles/profitix.dir/expense.cpp.o: /mnt/c/Users/User/Documents/finance-chall
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -715,6 +745,7 @@ CMakeFiles/profitix.dir/expense.cpp.o: /mnt/c/Users/User/Documents/finance-chall
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -762,10 +793,12 @@ CMakeFiles/profitix.dir/expense.cpp.o: /mnt/c/Users/User/Documents/finance-chall
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -785,6 +818,7 @@ CMakeFiles/profitix.dir/expense.cpp.o: /mnt/c/Users/User/Documents/finance-chall
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -867,7 +901,9 @@ CMakeFiles/profitix.dir/expense.cpp.o: /mnt/c/Users/User/Documents/finance-chall
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -919,8 +955,11 @@ CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -934,6 +973,7 @@ CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -981,10 +1021,12 @@ CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -1004,6 +1046,7 @@ CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -1086,7 +1129,9 @@ CMakeFiles/profitix.dir/income.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1138,8 +1183,11 @@ CMakeFiles/profitix.dir/main.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -1153,6 +1201,7 @@ CMakeFiles/profitix.dir/main.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -1200,10 +1249,12 @@ CMakeFiles/profitix.dir/main.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -1223,6 +1274,7 @@ CMakeFiles/profitix.dir/main.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -1305,7 +1357,9 @@ CMakeFiles/profitix.dir/main.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1357,8 +1411,11 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o: /mnt/c/Users/User/Documents/finance-chal
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -1372,6 +1429,7 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o: /mnt/c/Users/User/Documents/finance-chal
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -1419,10 +1477,12 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o: /mnt/c/Users/User/Documents/finance-chal
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -1442,6 +1502,7 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o: /mnt/c/Users/User/Documents/finance-chal
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -1524,7 +1585,9 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o: /mnt/c/Users/User/Documents/finance-chal
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1576,8 +1639,11 @@ CMakeFiles/profitix.dir/report.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -1591,6 +1657,7 @@ CMakeFiles/profitix.dir/report.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -1638,10 +1705,12 @@ CMakeFiles/profitix.dir/report.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -1661,6 +1730,7 @@ CMakeFiles/profitix.dir/report.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -1743,7 +1813,9 @@ CMakeFiles/profitix.dir/report.cpp.o: /mnt/c/Users/User/Documents/finance-challe
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1795,8 +1867,11 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
@@ -1810,6 +1885,7 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_base.h \
   /usr/include/c++/13/bits/ranges_cmp.h \
@@ -1857,10 +1933,12 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
@@ -1880,6 +1958,7 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -1962,7 +2041,9 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -2095,6 +2176,8 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/stdc-predef.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
+
 /usr/include/sched.h:
 
 /usr/include/pthread.h:
@@ -2102,6 +2185,14 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/linux/errno.h:
+
+/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.cpp:
+
+/usr/include/features.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -2119,9 +2210,9 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/c++/13/bits/locale_classes.h:
+/usr/include/c++/13/bits/locale_facets_nonio.h:
 
-/usr/include/ctype.h:
+/usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -2132,6 +2223,14 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/13/string_view:
+
+/usr/include/errno.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/c++/13/bits/nested_exception.h:
 
@@ -2146,6 +2245,10 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 /usr/include/c++/13/streambuf:
 
 /usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/typeinfo:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/13/cwchar:
 
@@ -2193,25 +2296,17 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/alloca.h:
 
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/stdexcept:
-
 /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/budget.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
+/usr/include/libintl.h:
+
 /usr/include/c++/13/bits/basic_string.h:
 
-/usr/include/c++/13/bits/ranges_base.h:
-
-/usr/include/c++/13/istream:
-
-/usr/include/c++/13/string_view:
-
-/usr/include/features-time64.h:
-
 /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -2251,12 +2346,6 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
 /usr/include/c++/13/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -2264,6 +2353,8 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 /usr/include/c++/13/map:
 
 /usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/c++/13/bits/locale_conv.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
@@ -2301,15 +2392,27 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/c++/13/cstddef:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/c++/13/bits/quoted_string.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/bits/ranges_base.h:
+
+/usr/include/c++/13/istream:
+
 /usr/include/c++/13/bits/locale_facets.tcc:
 
 /usr/include/c++/13/bits/requires_hosted.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
-
-/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.cpp:
-
-/usr/include/features.h:
 
 /usr/include/c++/13/cwctype:
 
@@ -2333,13 +2436,15 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
+/usr/include/c++/13/locale:
+
 /usr/include/c++/13/bits/stl_map.h:
 
-/usr/include/c++/13/bits/postypes.h:
+/usr/include/endian.h:
 
-/usr/include/c++/13/bits/std_abs.h:
+/usr/include/c++/13/bits/max_size_type.h:
 
-/usr/include/c++/13/bits/uses_allocator.h:
+/usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
@@ -2377,10 +2482,6 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/c++/13/tuple:
 
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/locale.h:
@@ -2399,6 +2500,14 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 
 /usr/include/c++/13/initializer_list:
 
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/c++/13/iomanip:
+
 /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/budget.cpp:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
@@ -2414,13 +2523,3 @@ CMakeFiles/profitix.dir/user.cpp.o: /mnt/c/Users/User/Documents/finance-challeng
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/typeinfo:
-
-/usr/include/c++/13/bits/max_size_type.h:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/endian.h:

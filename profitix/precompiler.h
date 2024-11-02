@@ -19,5 +19,6 @@
 #include <ctime>
 #include <map>
 #include <sstream>
+#include <iomanip>
 
 #endif //PRECOMPILER_H

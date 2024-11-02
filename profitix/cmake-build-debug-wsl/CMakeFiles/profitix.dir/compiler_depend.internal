@@ -44,8 +44,11 @@ CMakeFiles/profitix.dir/budget.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -59,6 +62,7 @@ CMakeFiles/profitix.dir/budget.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -106,10 +110,12 @@ CMakeFiles/profitix.dir/budget.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -129,6 +135,7 @@ CMakeFiles/profitix.dir/budget.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -211,7 +218,9 @@ CMakeFiles/profitix.dir/budget.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -264,8 +273,11 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -279,6 +291,7 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -326,10 +339,12 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -349,6 +364,7 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -431,7 +447,9 @@ CMakeFiles/profitix.dir/clearScreen.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -484,8 +502,11 @@ CMakeFiles/profitix.dir/dashboard.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -499,6 +520,7 @@ CMakeFiles/profitix.dir/dashboard.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -546,10 +568,12 @@ CMakeFiles/profitix.dir/dashboard.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -569,6 +593,7 @@ CMakeFiles/profitix.dir/dashboard.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -651,7 +676,9 @@ CMakeFiles/profitix.dir/dashboard.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -704,8 +731,11 @@ CMakeFiles/profitix.dir/expense.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -719,6 +749,7 @@ CMakeFiles/profitix.dir/expense.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -766,10 +797,12 @@ CMakeFiles/profitix.dir/expense.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -789,6 +822,7 @@ CMakeFiles/profitix.dir/expense.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -871,7 +905,9 @@ CMakeFiles/profitix.dir/expense.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -924,8 +960,11 @@ CMakeFiles/profitix.dir/income.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -939,6 +978,7 @@ CMakeFiles/profitix.dir/income.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -986,10 +1026,12 @@ CMakeFiles/profitix.dir/income.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -1009,6 +1051,7 @@ CMakeFiles/profitix.dir/income.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -1091,7 +1134,9 @@ CMakeFiles/profitix.dir/income.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -1144,8 +1189,11 @@ CMakeFiles/profitix.dir/main.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -1159,6 +1207,7 @@ CMakeFiles/profitix.dir/main.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -1206,10 +1255,12 @@ CMakeFiles/profitix.dir/main.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -1229,6 +1280,7 @@ CMakeFiles/profitix.dir/main.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -1311,7 +1363,9 @@ CMakeFiles/profitix.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -1364,8 +1418,11 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -1379,6 +1436,7 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -1426,10 +1484,12 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -1449,6 +1509,7 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -1531,7 +1592,9 @@ CMakeFiles/profitix.dir/mainMenu.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -1584,8 +1647,11 @@ CMakeFiles/profitix.dir/report.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -1599,6 +1665,7 @@ CMakeFiles/profitix.dir/report.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -1646,10 +1713,12 @@ CMakeFiles/profitix.dir/report.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -1669,6 +1738,7 @@ CMakeFiles/profitix.dir/report.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -1751,7 +1821,9 @@ CMakeFiles/profitix.dir/report.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
@@ -1804,8 +1876,11 @@ CMakeFiles/profitix.dir/user.cpp.o
  /usr/include/c++/13/bits/iterator_concepts.h
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
  /usr/include/c++/13/bits/locale_facets.h
  /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/max_size_type.h
  /usr/include/c++/13/bits/memory_resource.h
@@ -1819,6 +1894,7 @@ CMakeFiles/profitix.dir/user.cpp.o
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/ranges_base.h
  /usr/include/c++/13/bits/ranges_cmp.h
@@ -1866,10 +1942,12 @@ CMakeFiles/profitix.dir/user.cpp.o
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/fstream
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
  /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
@@ -1889,6 +1967,7 @@ CMakeFiles/profitix.dir/user.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h
@@ -1971,7 +2050,9 @@ CMakeFiles/profitix.dir/user.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
