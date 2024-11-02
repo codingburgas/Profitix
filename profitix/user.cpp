@@ -11,6 +11,7 @@ void registerUser() {
     // Get username from user
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Username:\" 10 40 2> username.txt") != 0) {
         system("rm username.txt");
+        clearScreen();
         mainMenu();  // Call main menu on cancel
         return;
     }
@@ -22,6 +23,7 @@ void registerUser() {
     // Get password from user
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --passwordbox \"Enter Password:\" 10 40 2> password.txt") != 0) {
         system("rm username.txt password.txt");
+        clearScreen();
         mainMenu();  // Call main menu on cancel
         return;
     }
@@ -33,6 +35,7 @@ void registerUser() {
     // Validate username and password
     if (username.size() < 4 || username.size() > 25 || password.size() < 8) {
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Invalid Credentials!\" 6 30");
+        clearScreen();
         registerUser();
     } else {
         // Generate a random 4-digit ID
@@ -42,6 +45,7 @@ void registerUser() {
         users << "\"" << username << "\" \"" << password << "\" " << userId << "\n";
         users.close();
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Register Successful!\" 6 30");
+        clearScreen();
     }
 
     system("rm username.txt password.txt");
@@ -55,6 +59,7 @@ void loginUser() {
     // Get username from user
     if (system("dialog --backtitle \"Profitix Finance Manager...\" --inputbox \"Enter Username:\" 10 40 2> username.txt") != 0) {
         system("rm username.txt");
+        clearScreen();
         mainMenu();
         return;
     }
@@ -66,6 +71,7 @@ void loginUser() {
     // Get password from user
     if (system("dialog --backtitle \"Profitix Finance Manager...\" --passwordbox \"Enter Password:\" 10 40 2> password.txt") != 0) {
         system("rm username.txt password.txt");
+        clearScreen();
         mainMenu();
         return;
     }
@@ -99,9 +105,11 @@ void loginUser() {
 
     if (loginSuccess) {
         system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Login Successful!\" 6 30");
+        clearScreen();
         dashboard();
     } else {
         system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Invalid Credentials!\" 6 30");
+        clearScreen();
         loginUser();
     }
 
@@ -115,6 +123,7 @@ void forgotPasswordUser() {
     // Get username for password reset
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Username for Password Reset:\" 10 40 2> username.txt") != 0) {
         system("rm username.txt");
+        clearScreen();
         mainMenu();  // Return to main menu on cancel
         return;
     }
@@ -149,6 +158,7 @@ void forgotPasswordUser() {
                     users.close();
                     temp.close();
                     system("rm temp.txt");
+                    clearScreen();
                     mainMenu();  // Return to main menu on cancel
                     return;
                 }
@@ -164,6 +174,7 @@ void forgotPasswordUser() {
                     users.close();
                     temp.close();
                     system("rm temp.txt");
+                    clearScreen();
                     mainMenu();  // Return to main menu on cancel
                     return;
                 }
@@ -179,6 +190,7 @@ void forgotPasswordUser() {
                     users.close();
                     temp.close();
                     system("rm temp.txt");
+                    clearScreen();
                     forgotPasswordUser();  // Restart password reset process
                     return;
                 }
@@ -198,8 +210,10 @@ void forgotPasswordUser() {
     if (userExists) {
         system("mv temp.txt users.txt");
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Password Reset Successful!\" 6 30");
+        clearScreen();
     } else {
         system("rm temp.txt");
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Username not found!\" 6 30");
+        clearScreen();
     }
 }

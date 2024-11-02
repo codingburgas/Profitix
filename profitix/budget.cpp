@@ -2,10 +2,14 @@
 
 // Function to set a monthly budget for a specific user and category
 void budgetPlanning() {
+    clearScreen();  // Clear screen at the beginning of the function
+
     std::string category, limit;
 
     // Prompt the user to enter a category with cancel handling
+    clearScreen();
     if (system("dialog --inputbox \"Enter Category for Budget:\" 10 40 2> category.txt") != 0) {
+        clearScreen();
         system("dialog --msgbox \"Budget setup cancelled.\" 6 30");
         return;  // Exit the function if cancelled
     }
@@ -15,7 +19,9 @@ void budgetPlanning() {
     file.close();
 
     // Prompt the user to enter a budget limit with cancel handling
+    clearScreen();
     if (system("dialog --inputbox \"Enter Budget Limit for the Category:\" 10 40 2> limit.txt") != 0) {
+        clearScreen();
         system("dialog --msgbox \"Budget setup cancelled.\" 6 30");
         system("rm category.txt");  // Clean up temporary file
         return;  // Exit the function if cancelled
@@ -30,6 +36,7 @@ void budgetPlanning() {
     budget << category << " " << limit << " " << currentUserID << "\n";
     budget.close();
 
+    clearScreen();
     // Notify the user that the budget has been set successfully
     system("dialog --msgbox \"Budget Set Successfully!\" 6 30");
     system("rm category.txt limit.txt");
@@ -37,6 +44,8 @@ void budgetPlanning() {
 
 // Function to retrieve the budget limit for a category specific to the logged-in user
 double getBudgetLimit(const std::string& category) {
+    clearScreen();  // Clear screen at the beginning of the function
+
     std::ifstream file("budget.txt");
     std::string line, budgetCategory, fileUserID;
     double limit = -1;
@@ -58,12 +67,16 @@ double getBudgetLimit(const std::string& category) {
 
 // Function to set or update a budget for a specific category and user with cancel handling
 void setBudget() {
+    clearScreen();  // Clear screen at the beginning of the function
+
     std::string category;
     std::string amountStr;
     double amount;
 
     // Prompt for category with cancel handling
+    clearScreen();
     if (system("dialog --inputbox \"Enter Category to Set Budget:\" 10 40 2> category.txt") != 0) {
+        clearScreen();
         system("dialog --msgbox \"Budget setup cancelled.\" 6 30");
         dashboard();  // Return to dashboard on cancel
         return;
@@ -74,7 +87,9 @@ void setBudget() {
     file.close();
 
     // Prompt for amount with cancel handling
+    clearScreen();
     if (system("dialog --inputbox \"Enter Budget Amount:\" 10 40 2> amount.txt") != 0) {
+        clearScreen();
         system("dialog --msgbox \"Budget setup cancelled.\" 6 30");
         system("rm category.txt");  // Clean up temporary file
         dashboard();
@@ -122,6 +137,7 @@ void setBudget() {
     // Replace original budget file with updated file
     system("mv temp_budget.txt budget.txt");
 
+    clearScreen();
     system("dialog --msgbox \"Budget Set Successfully!\" 6 30");
     system("rm category.txt amount.txt");
 }

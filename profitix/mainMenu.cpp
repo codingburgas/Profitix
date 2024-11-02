@@ -19,6 +19,7 @@ void mainMenu() {
         system("rm menu_choice.txt");
 
         if (choice == 1) {
+            clearScreen();
             registerUser();
         }
         else if (choice == 2) {

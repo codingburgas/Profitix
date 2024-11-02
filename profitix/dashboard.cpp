@@ -2,8 +2,9 @@
 
 void dashboard() {
     while (loggedIn) {
-        // Create a menu with an exit option at the bottom and a cancel option
-        system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --no-cancel --menu \"Profitix Finance Manager\" 15 50 8 1 \"Add Income\" 2 \"View Income\" 3 \"Delete Income\" 4 \"Add Expense\" 5 \"View Expense\" 6 \"Delete Expense\" 7 \"Generate Report\" 6 \"Budget Planning\" 7 \"Log Out\" 2> action_choice.txt");
+        clearScreen();  // Clear before showing the main menu
+
+        system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --no-cancel --menu \"Profitix Finance Manager\" 15 50 8 1 \"Add Income\" 2 \"View Income\" 3 \"Delete Income\" 4 \"Add Expense\" 5 \"View Expense\" 6 \"Delete Expense\" 7 \"Generate Report\" 8 \"Budget Planning\" 9 \"Log Out\" 2> action_choice.txt");
 
         std::ifstream file("action_choice.txt");
         int choice;
@@ -49,7 +50,8 @@ void dashboard() {
             mainMenu();
             break;
             default:
-                system("dialog --msgbox \"Invalid Option\" 6 30");
+                clearScreen();  // Clear before displaying error message
+            system("dialog --msgbox \"Invalid Option\" 6 30");
             break;
         }
     }
