@@ -1,1 +1,3 @@
-sigma 1000
+
+hrana 1000
+hrana 1000

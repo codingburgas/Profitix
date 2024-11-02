@@ -2,6 +2,7 @@
 
 void addExpense() {
     std::string date, category, amount;
+    double totalAmountForCategory = 0;
 
     // Prompt for Date with Calendar
     if (system("dialog --no-cancel --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
@@ -25,6 +26,13 @@ void addExpense() {
     std::getline(file, category);
     file.close();
 
+    // Get budget limit for the selected category
+    double budgetLimit = getBudgetLimit(category);
+    if (budgetLimit < 0) {
+        system("dialog --msgbox \"No budget set for this category. Please set a budget first.\" 6 40");
+        return;
+    }
+
     // Prompt for Amount
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Amount:\" 10 40 2> amount.txt") != 0) {
         dashboard();
@@ -34,13 +42,33 @@ void addExpense() {
     std::getline(file, amount);
     file.close();
 
-    // Add expense to file, appending currentUserID at the end
+    double expenseAmount = std::stod(amount);
+
+    // Calculate total expense for the selected category
+    std::ifstream expenseFile("expense.txt");
+    std::string line, fileDate, fileCategory, fileAmount, fileUserID;
+    while (std::getline(expenseFile, line)) {
+        std::istringstream iss(line);
+        iss >> fileDate >> fileCategory >> fileAmount >> fileUserID;
+
+        if (fileCategory == category && fileUserID == currentUserID) {
+            totalAmountForCategory += std::stod(fileAmount);
+        }
+    }
+    expenseFile.close();
+
+    // Check if adding this expense would exceed the budget limit
+    if (totalAmountForCategory + expenseAmount > budgetLimit) {
+        system("dialog --msgbox \"Expense exceeds budget limit for this category!\" 6 40");
+        return;
+    }
+
+    // Append the new expense to the file, with currentUserID at the end
     std::ofstream expense("expense.txt", std::ios::app);
     expense << date << " " << category << " " << amount << " " << currentUserID << "\n";
     expense.close();
 
-    // Confirmation message
-    system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Expense Added Successfully!\" 6 30");
+    system("dialog --msgbox \"Expense Added Successfully!\" 6 30");
     system("rm date.txt category.txt amount.txt");
 }
 

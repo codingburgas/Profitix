@@ -1,7 +1,7 @@
 CMakeFiles/profitix.dir/expense.cpp.o: \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.cpp \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/expense.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/precompiler.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/precompiler.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -160,14 +160,14 @@ CMakeFiles/profitix.dir/expense.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/clearScreen.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/mainMenu.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/globals.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/dashboard.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/income.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/budget.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/expense.h \
- /mnt/c/Users/yuant/CLionProjects/finance-challenge-profitix/profitix/report.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/clearScreen.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/mainMenu.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/globals.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/income.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/budget.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/expense.h \
+ /mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/report.h \
  /usr/include/c++/13/ctime /usr/include/c++/13/map \
  /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/ext/aligned_buffer.h \

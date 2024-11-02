@@ -2,7 +2,6 @@
 
 void addIncome() {
     std::string date, category, amount;
-    double totalAmountForCategory = 0;
 
     // Prompt for Date with Calendar
     if (system("dialog --no-cancel --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
@@ -24,12 +23,6 @@ void addIncome() {
     std::getline(file, category);
     file.close();
 
-    double budgetLimit = getBudgetLimit(category);
-    if (budgetLimit < 0) {
-        system("dialog --msgbox \"No budget set for this category. Please set a budget first.\" 6 40");
-        return;
-    }
-
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Amount:\" 10 40 2> amount.txt") != 0) {
         dashboard();
         return;
@@ -38,26 +31,10 @@ void addIncome() {
     std::getline(file, amount);
     file.close();
 
+    // Convert amount to a double
     double incomeAmount = std::stod(amount);
 
-    // Calculate total income for the selected category
-    std::ifstream incomeFile("income.txt");
-    std::string line, fileDate, fileCategory, fileAmount, fileUserID;
-    while (std::getline(incomeFile, line)) {
-        std::istringstream iss(line);
-        iss >> fileDate >> fileCategory >> fileAmount >> fileUserID;
-
-        if (fileCategory == category && fileUserID == currentUserID) {
-            totalAmountForCategory += std::stod(fileAmount);
-        }
-    }
-    incomeFile.close();
-
-    if (totalAmountForCategory + incomeAmount > budgetLimit) {
-        system("dialog --msgbox \"Income exceeds budget limit for this category!\" 6 40");
-        return;
-    }
-
+    // Append the new income entry to the income file with the currentUserID
     std::ofstream income("income.txt", std::ios::app);
     income << date << " " << category << " " << amount << " " << currentUserID << "\n";
     income.close();
@@ -65,6 +42,7 @@ void addIncome() {
     system("dialog --msgbox \"Income Added Successfully!\" 6 30");
     system("rm date.txt category.txt amount.txt");
 }
+
 
 void viewIncome(const std::string& currentUserID) {
     std::ifstream file("income.txt");
