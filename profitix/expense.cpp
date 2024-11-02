@@ -4,7 +4,7 @@ void addExpense() {
     std::string date, category, amount;
 
     // Prompt for Date with Calendar
-    if (system("dialog --backtitle \"Profitix Finance Manager\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
+    if (system("dialog --no-cancel --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
         dashboard();
         return;
     }
@@ -17,28 +17,34 @@ void addExpense() {
     date = date_str.substr(6, 4) + "-" + date_str.substr(0, 2) + "-" + date_str.substr(3, 2);
 
     // Prompt for Category
-    system("dialog --inputbox \"Enter Category:\" 10 40 2> category.txt");
+    if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Category:\" 10 40 2> category.txt") != 0) {
+        dashboard();
+        return;
+    }
     file.open("category.txt");
-    getline(file, category);
+    std::getline(file, category);
     file.close();
 
     // Prompt for Amount
-    system("dialog --inputbox \"Enter Amount:\" 10 40 2> amount.txt");
+    if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Amount:\" 10 40 2> amount.txt") != 0) {
+        dashboard();
+        return;
+    }
     file.open("amount.txt");
-    getline(file, amount);
+    std::getline(file, amount);
     file.close();
 
-    // Add expense to file
+    // Add expense to file, appending currentUserID at the end
     std::ofstream expense("expense.txt", std::ios::app);
-    expense << date << " " << category << " " << amount << "\n";
+    expense << date << " " << category << " " << amount << " " << currentUserID << "\n";
     expense.close();
 
     // Confirmation message
-    system("dialog --msgbox \"Expense Added Successfully!\" 6 30");
+    system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Expense Added Successfully!\" 6 30");
     system("rm date.txt category.txt amount.txt");
 }
 
-void viewExpense() {
+void viewExpense(const std::string& currentUserID) {
     std::ifstream file("expense.txt");
     std::string formattedData;
 
@@ -48,6 +54,14 @@ void viewExpense() {
 
     std::string line;
     while (std::getline(file, line)) {
+        // Check if the last four characters match currentUserID
+        if (line.size() < 4 || line.substr(line.size() - 4) != currentUserID) {
+            continue;  // Skip this line if it does not match the current user's ID
+        }
+
+        // Remove last four characters (user ID) from the line
+        line = line.substr(0, line.size() - 4);
+
         size_t first_space = line.find(' ');
         size_t second_space = line.find(' ', first_space + 1);
 
@@ -67,8 +81,8 @@ void viewExpense() {
     tempFile << formattedData;
     tempFile.close();
 
-    // Display formatted data
-    system("dialog --backtitle \"Profitix Finance Manager\" --textbox formatted_expense.txt 20 50");
+    // Display formatted data in dialog
+    system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --textbox formatted_expense.txt 20 50");
 
     // Clean up temporary file
     system("rm formatted_expense.txt");

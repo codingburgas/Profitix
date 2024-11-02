@@ -27,7 +27,7 @@ void dashboard() {
             break;
             case 4:
                 clearScreen();
-                viewExpense();
+                viewExpense(currentUserID);
             break;
             case 5:
                 clearScreen();
