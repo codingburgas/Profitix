@@ -3,5 +3,6 @@
 
 void addIncome();
 void viewIncome(const std::string& currentUserID);
+void deleteIncome();
 
 #endif //INCOME_H

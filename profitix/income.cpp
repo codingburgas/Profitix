@@ -87,3 +87,45 @@ void viewIncome(const std::string& currentUserID) {
     // Clean up temporary file
     system("rm formatted_income.txt");
 }
+
+void deleteIncome() {
+    std::string date, category, amount;
+
+    // Prompt user to enter the income entry to delete
+    if (system("dialog --backtitle \"Delete Income\" --inputbox \"Enter Date, Category, and Amount (separated by spaces):\" 10 50 2> income_delete.txt") != 0) {
+        dashboard();
+        return;
+    }
+
+    std::ifstream file("income_delete.txt");
+    std::getline(file, date, ' ');
+    std::getline(file, category, ' ');
+    std::getline(file, amount);
+    file.close();
+
+    std::ifstream incomeFile("income.txt");
+    std::ofstream tempFile("temp_income.txt", std::ios::app);
+    std::string line;
+    bool entryFound = false;
+
+    // Check if entry exists and write all other entries to temp file
+    while (std::getline(incomeFile, line)) {
+        if (line.find(date) != std::string::npos && line.find(category) != std::string::npos && line.find(amount) != std::string::npos) {
+            entryFound = true; // Entry found for deletion
+            continue; // Skip writing this line to temp file
+        }
+        tempFile << line << "\n"; // Write line to temp file
+    }
+
+    incomeFile.close();
+    tempFile.close();
+
+    // Replace original income file with updated temp file
+    system("mv temp_income.txt income.txt");
+
+    if (entryFound) {
+        system("dialog --msgbox \"Income Entry Deleted Successfully!\" 6 30");
+    } else {
+        system("dialog --msgbox \"No matching entry found to delete.\" 6 30");
+    }
+}

@@ -130,3 +130,56 @@ void viewExpense(const std::string& currentUserID) {
     // Clean up temporary file
     system("rm formatted_expense.txt");
 }
+
+void deleteExpense() {
+    std::string category, date, amount;
+
+    // Prompt for category with cancel handling
+    if (system("dialog --inputbox \"Enter Expense Category to Delete:\" 10 40 2> category.txt") != 0) {
+        dashboard();
+        return;
+    }
+    std::ifstream file("category.txt");
+    std::getline(file, category);
+    file.close();
+
+    // Prompt for date with cancel handling
+    if (system("dialog --inputbox \"Enter Date of Expense to Delete (YYYY-MM-DD):\" 10 40 2> date.txt") != 0) {
+        system("rm category.txt");
+        dashboard();
+        return;
+    }
+    file.open("date.txt");
+    std::getline(file, date);
+    file.close();
+
+    // Open expense file and create a temporary file
+    std::ifstream expenseFile("expense.txt");
+    std::ofstream tempFile("temp_expense.txt");
+    std::string line;
+    bool deleted = false;
+
+    while (std::getline(expenseFile, line)) {
+        if (line.find(category) != std::string::npos && line.find(date) != std::string::npos) {
+            deleted = true; // Mark as deleted
+            continue; // Skip this line (delete it)
+        }
+        tempFile << line << "\n"; // Copy other lines
+    }
+
+    expenseFile.close();
+    tempFile.close();
+
+    // Replace original expense file with updated file
+    system("mv temp_expense.txt expense.txt");
+
+    // Notify user
+    if (deleted) {
+        system("dialog --msgbox \"Expense Deleted Successfully!\" 6 30");
+    } else {
+        system("dialog --msgbox \"No matching expense found!\" 6 30");
+    }
+
+    // Cleanup temporary files
+    system("rm category.txt date.txt");
+}
