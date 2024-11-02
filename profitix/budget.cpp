@@ -21,3 +21,20 @@ void budgetPlanning() {
     system("dialog --msgbox \"Budget Set Successfully!\" 6 30");
     system("rm category.txt limit.txt");
 }
+
+// Function to retrieve the budget limit for a category
+double getBudgetLimit(const std::string& category) {
+    std::ifstream file("budget.txt");
+    std::string line, budgetCategory;
+    double limit = -1;
+
+    while (std::getline(file, line)) {
+        std::istringstream iss(line);
+        iss >> budgetCategory >> limit;
+        if (budgetCategory == category) {
+            return limit;
+        }
+    }
+    file.close();
+    return -1;  // Return -1 if category not found
+}

@@ -2,6 +2,7 @@
 
 void addIncome() {
     std::string date, category, amount;
+    double totalAmountForCategory = 0;
 
     // Prompt for Date with Calendar
     if (system("dialog --no-cancel --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --calendar \"Select Date:\" 0 0 2024 01 01 2> date.txt") != 0) {
@@ -9,14 +10,12 @@ void addIncome() {
         return;
     }
 
-    // Read and format the date
     std::ifstream file("date.txt");
     std::string date_str;
-    file >> date_str;  // Reads date in "MM-DD-YYYY" format
+    file >> date_str;
     file.close();
     date = date_str.substr(6, 4) + "-" + date_str.substr(0, 2) + "-" + date_str.substr(3, 2);
 
-    // Prompt for Category
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Category:\" 10 40 2> category.txt") != 0) {
         dashboard();
         return;
@@ -25,7 +24,12 @@ void addIncome() {
     std::getline(file, category);
     file.close();
 
-    // Prompt for Amount
+    double budgetLimit = getBudgetLimit(category);
+    if (budgetLimit < 0) {
+        system("dialog --msgbox \"No budget set for this category. Please set a budget first.\" 6 40");
+        return;
+    }
+
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --inputbox \"Enter Amount:\" 10 40 2> amount.txt") != 0) {
         dashboard();
         return;
@@ -34,16 +38,33 @@ void addIncome() {
     std::getline(file, amount);
     file.close();
 
-    // Add income to file, appending currentUserID at the end
+    double incomeAmount = std::stod(amount);
+
+    // Calculate total income for the selected category
+    std::ifstream incomeFile("income.txt");
+    std::string line, fileDate, fileCategory, fileAmount, fileUserID;
+    while (std::getline(incomeFile, line)) {
+        std::istringstream iss(line);
+        iss >> fileDate >> fileCategory >> fileAmount >> fileUserID;
+
+        if (fileCategory == category && fileUserID == currentUserID) {
+            totalAmountForCategory += std::stod(fileAmount);
+        }
+    }
+    incomeFile.close();
+
+    if (totalAmountForCategory + incomeAmount > budgetLimit) {
+        system("dialog --msgbox \"Income exceeds budget limit for this category!\" 6 40");
+        return;
+    }
+
     std::ofstream income("income.txt", std::ios::app);
     income << date << " " << category << " " << amount << " " << currentUserID << "\n";
     income.close();
 
-    // Confirmation message
-    system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Income Added Successfully!\" 6 30");
+    system("dialog --msgbox \"Income Added Successfully!\" 6 30");
     system("rm date.txt category.txt amount.txt");
 }
-
 
 void viewIncome(const std::string& currentUserID) {
     std::ifstream file("income.txt");

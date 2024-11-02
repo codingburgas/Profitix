@@ -17,6 +17,7 @@
 #include "expense.h"
 #include "report.h"
 #include <ctime>
-
+#include <map>
+#include <sstream>
 
 #endif //PRECOMPILER_H
