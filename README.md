@@ -49,7 +49,7 @@
 
 #### - Go to Settings -> Editor -> Font and set line height to 1.0
 
-## <img src= "resources/hammer_icon.png" alt="hammer icon">Building the project outside of CLion
+## <img src= "resources/hammer_icon.png" alt="hammer icon"> Building the project outside of CLion
 
 #### 1. In a WSL terminal, go to the 'profitix' directory (where the source files are located) and run these commands:
 
