@@ -41,7 +41,6 @@ add_executable (profitix ${SOURCES}
         expense.h
         report.h)
 
-# Someone please fucking peg me.
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET profitix PROPERTY CXX_STANDARD 20)
 endif()
