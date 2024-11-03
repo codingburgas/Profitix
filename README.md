@@ -19,7 +19,7 @@
 
 #### *These instructions will help you copy and run our project.*
 
-#### *NOTE:This project works natively on Linux as long as the dependencies are met. Debugging on windows requires extra steps*
+#### *NOTE: This project works natively on Linux as long as the dependencies are met. Debugging on windows requires extra steps*
 
 ## <img src= "resources/windows_logo.png" alt="windows logo"> Windows Dependencies:
 
@@ -33,7 +33,7 @@
 
 ## <img src= "resources/linux_logo.png" alt="linux logo"> Linux Dependencies (WSL):
 
-#### - CMake GCC, Clang & GDB build-essential dialog make (Install with package manager of your distribution, apt for Ubuntu);
+#### - cmake gcc clang gdb build-essential dialog make (Install with package manager of your distribution, apt for Ubuntu);
 
 ## In CLion, WSL is required as a toolchain and has to be added manually
 
@@ -69,7 +69,7 @@
 # <img src= "resources/laptop_icon.png" alt="laptop icon"> Used Technologies
 
 ### Used code editor & collaborative service:
-#### <img src= "resources/clion_logo.png" alt="CLion logo"> <img src= "resources/linux_logo.png" alt ="Linux logo"> <img src= "resources/github_logo_dark.png#gh-light-mode-only" alt="github logo"><img src= "resources/github_logo_dark.png#gh-dark-mode-only" alt="github logo"> <img src= "resources/git_logo.png" alt="Git logo">
+#### [![idk](https://skillicons.dev/icons?i=clion,linux,github,git)](https://skillicons.dev)
 ### Used technologies for our project development:
 #### <img src= "resources/C++_icon_light.png#gh-dark-mode-only" alt="C++ icon"><img src= "resources/C++_icon_dark.png#gh-light-mode-only" alt="C++ icon">
 ### Used tools for our documentation & presentation & communication:
