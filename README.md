@@ -15,7 +15,7 @@
 
 ### Profitix is a personal finance manager built in C++ for the Windows Subsystem for Linux (WSL). Using `dialog` with `ncurses` for a text-based interface, it helps users track income, expenses, and budgets. Designed to be simple and efficient, Profitix offers an accessible, console-based solution for managing finances directly from the terminal.
 
-# <img src= "resources/download_dark.png#gh-light-mode-only" alt="download emoji"><img src= "resources/download_light.png#gh-dark-mode-only" alt="download emoji"> Setup & Installation
+# <img src= "resources/download_dark.png#gh-light-mode-only" alt="download icon"><img src= "resources/download_light.png#gh-dark-mode-only" alt="download icon"> Setup & Installation
 
 #### *These instructions will help you copy and run our project.*
 
@@ -39,7 +39,7 @@
 
 #### Go to Settings -> Build, Execution, Deployment -> Toolchains and add WSL.
 
-## <img src= "resources/door_emoji.png" alt="door emoji"> Opening the project
+## <img src= "resources/door_icon.png" alt="door icon"> Opening the project
 
 #### - In CLion, Go to Main Menu -> Open and select the CMakeLists.txt file in the 'profitix' directory, and then chose 'Open as Project' in case the Run, Debug and Build options are greyed out.
 
@@ -49,7 +49,7 @@
 
 #### - Go to Settings -> Editor -> Font and set line height to 1.0
 
-## <img src= "resources/hammer_emoji.png" alt="hammer emoji">Building the project outside of CLion
+## <img src= "resources/hammer_icon.png" alt="hammer icon">Building the project outside of CLion
 
 #### 1. In a WSL terminal, go to the 'profitix' directory (where the source files are located) and run these commands:
 
@@ -69,7 +69,7 @@
 # <img src= "resources/laptop_icon.png" alt="laptop icon"> Used Technologies
 
 ### Used code editor & collaborative service:
-#### <img src= "resources/MMM_logo.png" alt="CLion logo"> <img src= "resources/MMM_logo.png" alt ="Linux logo"> <img src= "resources/github_logo_dark.png#gh-light-mode-only" alt="github logo"><img src= "resources/github_logo_dark.png#gh-dark-mode-only" alt="github logo"> <img src= "resources/git_logo.png" alt="Git logo">
+#### <img src= "resources/clion_logo.png" alt="CLion logo"> <img src= "resources/linux_logo.png" alt ="Linux logo"> <img src= "resources/github_logo_dark.png#gh-light-mode-only" alt="github logo"><img src= "resources/github_logo_dark.png#gh-dark-mode-only" alt="github logo"> <img src= "resources/git_logo.png" alt="Git logo">
 ### Used technologies for our project development:
 #### <img src= "resources/C++_icon_light.png#gh-dark-mode-only" alt="C++ icon"><img src= "resources/C++_icon_dark.png#gh-light-mode-only" alt="C++ icon">
 ### Used tools for our documentation & presentation & communication:
