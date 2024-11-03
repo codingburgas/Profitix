@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/budget.cpp" "CMakeFiles/profitix.dir/budget.cpp.o" "gcc" "CMakeFiles/profitix.dir/budget.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/clearScreen.cpp" "CMakeFiles/profitix.dir/clearScreen.cpp.o" "gcc" "CMakeFiles/profitix.dir/clearScreen.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/dashboard.cpp" "CMakeFiles/profitix.dir/dashboard.cpp.o" "gcc" "CMakeFiles/profitix.dir/dashboard.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/expense.cpp" "CMakeFiles/profitix.dir/expense.cpp.o" "gcc" "CMakeFiles/profitix.dir/expense.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/income.cpp" "CMakeFiles/profitix.dir/income.cpp.o" "gcc" "CMakeFiles/profitix.dir/income.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/main.cpp" "CMakeFiles/profitix.dir/main.cpp.o" "gcc" "CMakeFiles/profitix.dir/main.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/mainMenu.cpp" "CMakeFiles/profitix.dir/mainMenu.cpp.o" "gcc" "CMakeFiles/profitix.dir/mainMenu.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/report.cpp" "CMakeFiles/profitix.dir/report.cpp.o" "gcc" "CMakeFiles/profitix.dir/report.cpp.o.d"
-  "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/user.cpp" "CMakeFiles/profitix.dir/user.cpp.o" "gcc" "CMakeFiles/profitix.dir/user.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/budget.cpp" "CMakeFiles/profitix.dir/budget.cpp.o" "gcc" "CMakeFiles/profitix.dir/budget.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/clearScreen.cpp" "CMakeFiles/profitix.dir/clearScreen.cpp.o" "gcc" "CMakeFiles/profitix.dir/clearScreen.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/dashboard.cpp" "CMakeFiles/profitix.dir/dashboard.cpp.o" "gcc" "CMakeFiles/profitix.dir/dashboard.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/expense.cpp" "CMakeFiles/profitix.dir/expense.cpp.o" "gcc" "CMakeFiles/profitix.dir/expense.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/income.cpp" "CMakeFiles/profitix.dir/income.cpp.o" "gcc" "CMakeFiles/profitix.dir/income.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/main.cpp" "CMakeFiles/profitix.dir/main.cpp.o" "gcc" "CMakeFiles/profitix.dir/main.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/mainMenu.cpp" "CMakeFiles/profitix.dir/mainMenu.cpp.o" "gcc" "CMakeFiles/profitix.dir/mainMenu.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/report.cpp" "CMakeFiles/profitix.dir/report.cpp.o" "gcc" "CMakeFiles/profitix.dir/report.cpp.o.d"
+  "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/user.cpp" "CMakeFiles/profitix.dir/user.cpp.o" "gcc" "CMakeFiles/profitix.dir/user.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

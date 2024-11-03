@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/cmake-build-debug-wsl",
-		"source" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix"
+		"build" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl",
+		"source" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix"
 	},
 	"version" : 
 	{

@@ -1,6 +1,7 @@
 #include "precompiler.h"
 
 std::string currentUserID;
+
 // Function to register a new user
 void registerUser() {
     std::string username, password;
@@ -19,6 +20,31 @@ void registerUser() {
     std::ifstream file("username.txt");
     std::getline(file, username);
     file.close();
+
+    // Check if username already exists
+    bool userExists = false;
+    std::ifstream usersFile("users.txt");
+    std::string line;
+    while (std::getline(usersFile, line)) {
+        size_t firstQuote = line.find("\"");
+        size_t secondQuote = line.find("\"", firstQuote + 1);
+
+        if (firstQuote != std::string::npos && secondQuote != std::string::npos) {
+            std::string storedUser = line.substr(firstQuote + 1, secondQuote - firstQuote - 1);
+            if (storedUser == username) {
+                userExists = true;
+                break;
+            }
+        }
+    }
+    usersFile.close();
+
+    if (userExists) {
+        system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Username already exists! Please choose a different username.\" 6 40");
+        clearScreen();
+        registerUser();  // Restart registration process
+        return;
+    }
 
     // Get password from user
     if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --passwordbox \"Enter Password:\" 10 40 2> password.txt") != 0) {
@@ -116,6 +142,7 @@ void loginUser() {
     system("rm username.txt password.txt");
 }
 
+// Function to handle forgot password
 void forgotPasswordUser() {
     std::string username, newPassword, confirmPassword, storedUser, storedPass;
     bool userExists = false;
@@ -186,34 +213,32 @@ void forgotPasswordUser() {
 
                 // Check if passwords match and meet criteria
                 if (newPassword != confirmPassword || newPassword.size() < 8) {
-                    system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Passwords do not match or are invalid (min 8 chars)!\" 6 40");
-                    users.close();
-                    temp.close();
-                    system("rm temp.txt");
+                    system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Passwords do not match or do not meet the criteria.\" 6 40");
                     clearScreen();
-                    forgotPasswordUser();  // Restart password reset process
+                    forgotPasswordUser();  // Restart forgot password process
                     return;
                 }
 
-                // Write the new password
-                temp << "\"" << storedUser << "\" \"" << newPassword << "\"\n";
-            } else {
-                // Write the unchanged user data
-                temp << "\"" << storedUser << "\" \"" << storedPass << "\"\n";
+                // Update the line with new password
+                line = "\"" + storedUser + "\" \"" + newPassword + "\" " + line.substr(line.size() - 4, line.size());
             }
         }
-    }
 
+        temp << line << "\n";
+    }
     users.close();
     temp.close();
 
     if (userExists) {
         system("mv temp.txt users.txt");
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Password Reset Successful!\" 6 30");
-        clearScreen();
     } else {
         system("rm temp.txt");
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Username not found!\" 6 30");
         clearScreen();
+        forgotPasswordUser();  // Restart forgot password process
     }
+
+    clearScreen();
+    mainMenu();
 }

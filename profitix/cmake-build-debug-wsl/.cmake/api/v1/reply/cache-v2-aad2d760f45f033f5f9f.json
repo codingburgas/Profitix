@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/cmake-build-debug-wsl"
+			"value" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/cmake-build-debug-wsl/CMakeFiles/pkgRedirects"
+			"value" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix"
+			"value" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix/cmake-build-debug-wsl"
+			"value" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl"
 		},
 		{
 			"name" : "profitix_IS_TOP_LEVEL",
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/User/Documents/finance-challenge-profitix/profitix"
+			"value" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix"
 		}
 	],
 	"kind" : "cache",
