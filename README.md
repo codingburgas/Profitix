@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u5k3noT3)
 <p align = "center">
-<img src= "resources/logo_readme.png" alt="Profitix">
+<img src= "resources/profitix_logo.png" alt="Profitix">
   
 <hr>
 
@@ -63,8 +63,8 @@
 
 # <img src= "resources/word_logo.png" alt="document icon"> Documentation
 
-### <img src= "resources/word_logo.png" alt="word logo"> [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/dkgeorgiev21_codingburgas_bg/ESesdF6W011FnNgkyhQ3H2gBJzQakpxQ8MwM2Yg0UBpb9A?e=6iFQ5f)
-### <img src= "resources/powerpoint_logo.png" alt="powerpoint logo"> [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/dkgeorgiev21_codingburgas_bg/EdBl7anvKDNAqOeql-wwl24BspoKGlaNcZrL0xogDbL7oA?e=IRNwY9)
+### <img src= "resources/word_logo.png" alt="word logo"> [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/tpzhekov22_codingburgas_bg/EY5Xn24vpb9Jm7dZjGcnNgEBEdhi7QtvRrLGRenVdO3HeA?e=DrkBwy)
+### <img src= "resources/powerpoint_logo.png" alt="powerpoint logo"> [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EWe4U4ZiMfVEtiA6gaSuwBkBwcewCGP52OkZa6guijc0Tg?e=rih6CA)
 
 # <img src= "resources/laptop_icon.png" alt="laptop icon"> Used Technologies
 
