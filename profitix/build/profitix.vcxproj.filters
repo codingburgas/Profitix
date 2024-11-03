@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\budget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\expense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\income.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kaloyan\source\repos\codingburgas\finance-challenge-profitix\profitix\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{848BFD06-88DF-34F9-BDEB-DD83608FDD6B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
