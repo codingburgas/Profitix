@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "profitix::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-profitix-Debug-c070a49571f5af61ea94.json",
+					"jsonFile" : "target-profitix-Debug-9eb8b423697e13a1fb48.json",
 					"name" : "profitix",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl",
-		"source" : "/mnt/c/Users/User/Documents/Profitix/profitix"
+		"build" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl",
+		"source" : "/mnt/c/Users/yuant/CLionProjects/Profitix/profitix"
 	},
 	"version" : 
 	{

@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/Users/User/Documents/Profitix/profitix -B /mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/Users/yuant/CLionProjects/Profitix/profitix -B /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl
+-- Build files have been written to: /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl

@@ -17,6 +17,8 @@ void registerUser() {
         return;
     }
 
+    clearScreen();
+
     std::ifstream file("username.txt");
     std::getline(file, username);
     file.close();
@@ -94,6 +96,7 @@ void loginUser() {
     std::getline(file, username);
     file.close();
 
+    clearScreen();
     // Get password from user
     if (system("dialog --backtitle \"Profitix Finance Manager...\" --passwordbox \"Enter Password:\" 10 40 2> password.txt") != 0) {
         system("rm username.txt password.txt");
@@ -101,6 +104,7 @@ void loginUser() {
         mainMenu();
         return;
     }
+
 
     file.open("password.txt");
     std::getline(file, password);
@@ -159,7 +163,7 @@ void forgotPasswordUser() {
     std::getline(file, username);
     file.close();
     system("rm username.txt");
-
+    clearScreen();
     // Verify if username exists and prepare to update
     std::ifstream users("users.txt");
     std::ofstream temp("temp.txt");
@@ -195,6 +199,7 @@ void forgotPasswordUser() {
                 pwdFile.close();
                 system("rm password.txt");
 
+                clearScreen();
                 // Confirm new password
                 if (system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --passwordbox \"Confirm New Password:\" 10 40 2> confirm_password.txt") != 0) {
                     system("rm confirm_password.txt");
@@ -230,9 +235,11 @@ void forgotPasswordUser() {
     temp.close();
 
     if (userExists) {
+        clearScreen();
         system("mv temp.txt users.txt");
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Password Reset Successful!\" 6 30");
     } else {
+        clearScreen();
         system("rm temp.txt");
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Username not found!\" 6 30");
         clearScreen();

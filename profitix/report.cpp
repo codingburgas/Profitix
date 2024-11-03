@@ -22,7 +22,7 @@ void generateReport(const std::string& currentUserID) {
         }
         incomeFile.close();
     } else {
-        std::cerr << "Error opening income file." << std::endl;
+        std::cout << "Error opening income file." << std::endl;
     }
 
     // Reading expense data
@@ -43,7 +43,7 @@ void generateReport(const std::string& currentUserID) {
         }
         expenseFile.close();
     } else {
-        std::cerr << "Error opening expense file." << std::endl;
+        std::cout << "Error opening expense file." << std::endl;
     }
 
     // Calculate net profit/loss

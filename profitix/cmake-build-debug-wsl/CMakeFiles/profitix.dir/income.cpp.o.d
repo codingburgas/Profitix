@@ -1,7 +1,7 @@
 CMakeFiles/profitix.dir/income.cpp.o: \
- /mnt/c/Users/User/Documents/Profitix/profitix/income.cpp \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/income.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/precompiler.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/precompiler.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -160,14 +160,14 @@ CMakeFiles/profitix.dir/income.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /mnt/c/Users/User/Documents/Profitix/profitix/clearScreen.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/mainMenu.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/globals.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/dashboard.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/income.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/budget.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/expense.h \
- /mnt/c/Users/User/Documents/Profitix/profitix/report.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/clearScreen.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/mainMenu.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/globals.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/dashboard.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/income.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/budget.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/expense.h \
+ /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/report.h \
  /usr/include/c++/13/ctime /usr/include/c++/13/map \
  /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
