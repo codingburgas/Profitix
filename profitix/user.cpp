@@ -57,11 +57,11 @@ void registerUser() {
     file.open("password.txt");
     std::getline(file, password);
     file.close();
+    clearScreen();
 
     // Validate username and password
     if (username.size() < 4 || username.size() > 25 || password.size() < 8) {
         system("dialog --backtitle \"Profitix Finance Manager — Use arrow keys and Enter to navigate — GitHub: https://github.com/codingburgas/finance-challenge-profitix\" --msgbox \"Invalid Credentials!\" 6 30");
-        clearScreen();
         registerUser();
     } else {
         // Generate a random 4-digit ID
@@ -130,12 +130,12 @@ void loginUser() {
     users.close();
 
     if (loginSuccess) {
-        system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Login Successful!\" 6 30");
         clearScreen();
+        system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Login Successful!\" 6 30");
         dashboard();
     } else {
-        system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Invalid Credentials!\" 6 30");
         clearScreen();
+        system("dialog --backtitle \"Profitix Finance Manager...\" --msgbox \"Invalid Credentials!\" 6 30");
         loginUser();
     }
 

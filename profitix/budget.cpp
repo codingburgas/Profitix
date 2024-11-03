@@ -141,3 +141,55 @@ void setBudget() {
     system("dialog --msgbox \"Budget Set Successfully!\" 6 30");
     system("rm category.txt amount.txt");
 }
+
+void deleteBudget() {
+    std::string category;
+
+    // Prompt for category with cancel handling
+    if (system("dialog --inputbox \"Enter Budget Category to Delete:\" 10 40 2> category.txt") != 0) {
+        clearScreen();
+        dashboard(); // Return to dashboard on cancel
+        return;
+    }
+
+    std::ifstream file("category.txt");
+    std::getline(file, category);
+    file.close();
+
+    // Open budget file and create a temporary file
+    std::ifstream budgetFile("budget.txt");
+    std::ofstream tempFile("temp_budget.txt");
+    std::string line;
+    bool deleted = false;
+
+    while (std::getline(budgetFile, line)) {
+        std::istringstream iss(line);
+        std::string fileCategory, fileUserID;
+        double fileBudget;
+
+        iss >> fileCategory >> fileBudget >> fileUserID;
+
+        // If matching category and user ID found, skip writing it (deleting it)
+        if (fileCategory == category && fileUserID == currentUserID) {
+            deleted = true; // Mark as deleted
+            continue; // Skip this line (delete it)
+        }
+        tempFile << line << "\n"; // Copy other lines
+    }
+
+    budgetFile.close();
+    tempFile.close();
+
+    // Replace original budget file with updated file
+    system("mv temp_budget.txt budget.txt");
+
+    // Notify user
+    if (deleted) {
+        system("dialog --msgbox \"Budget Deleted Successfully!\" 6 30");
+    } else {
+        system("dialog --msgbox \"No matching budget found!\" 6 30");
+    }
+
+    // Cleanup temporary files
+    system("rm category.txt");
+}

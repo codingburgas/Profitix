@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/yuant/CLionProjects/Profitix/profitix
+CMAKE_SOURCE_DIR = /mnt/c/Users/User/Documents/Profitix/profitix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl
+CMAKE_BINARY_DIR = /mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/profitix.dir/clean
 CMakeFiles/profitix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profitix.dir/build.make CMakeFiles/profitix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target profitix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target profitix"
 .PHONY : CMakeFiles/profitix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/profitix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/profitix.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/yuant/CLionProjects/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/User/Documents/Profitix/profitix/cmake-build-debug-wsl/CMakeFiles 0
 .PHONY : CMakeFiles/profitix.dir/rule
 
 # Convenience name for target.
